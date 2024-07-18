@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <!-- top navbar -->
+            <nav class="top-nav d-flex">
+                <div class="left mt-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg " alt="Indian Flag">
+                    <span>IND</span>
+                    <i class="fa-solid fa-angle-down" style="color: #cfd1d3;"></i>
+                    <span>+918431040457</span>
+                </div>
+                <div class="right d-flex mt-2">
+                    <ul class="d-flex">
+                        <li> <a href="#">My Account</a></li>
+                        <li> <a href="#">Wish List</a></li>
+                        <li> <a href="#">Shopping</a></li>
+                        <li> <a href="#">Cart</a></li>
+                        <li> <a href="#">CheckOut</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- main navbar -->
+            <nav class="navbar bg-body-tertiary p-0">
+                <div class="container-fluid">
+                  <a class="navbar-brand "><img src="../Project/Asset/logo/Logo.png" alt="Logo"></a>
+                  <div id="Nav">
+                    <ul id="SecondNav" class="d-flex">
+                        <li class="p-2">Home</li>
+                        <li class="p-2">Category</li>
+                        <li class="p-2">Latest</li>
+                        <span class="badges">Hot</span>
+                        <li class="p-2">Blog</li>
+                        <li class="p-2">Pages</li>
+                        <li class="p-2">Contact</li>
+                    </ul>
+                  </div>
+                  <form class="d-flex" role="search">
+                    <input id="SearchBar" class="form-control me-2 btn-rounded rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                    <a href="#"><i id="Search" class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i id="WishList"class="fa-solid fa-heart border justify-content-center mt-2 p-2"></i></a>
+                    <small><span class="badge">02</span></small>
+                    <a href="#"><i id="Cart"class="fa-solid fa-cart-shopping border mt-2 p-2"></i></a>
+                    <small><span class="badge ">02</span></small>
+                    <button id="SignIn" class="btn btn-primary btn-rounded rounded-pill" type="submit">SignIn</button>
+                  </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section>
+        <div class="container-fluid">
+            <div class="banner d-flex">
+                <div class="banner-image col-md-6">
+                    <img src="../Project/Asset/hero/hero_man.png" alt="hero">
+                </div>
+                <div class="col-md-6 text-content">
+                    <p class="p1">60% Discount</p>
+                    <p class="p2">Winter Collection</p>
+                    <p class="p3">Best Cloth Collection By 2020!</p>
+                    <button class="btn btn-primary btn-shop-now rounded-pill">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- category  items -->
+    <h2 id="shop-by">Shop By Category</h2>
+    <section class="cat-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Project/Asset/categori/cat1.jpg" class="card-img-top" alt="cat1">
+                        <div class="card-img-overlay">
+                          <p id="cat-card1" class="card-text">Women's</p>
+                          <a id="cat-a1" href="#" class="btn btn-primary rounded-pill">Best New Deals</a>
+                          <p id="cat-p1">New Collection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Project/Asset/categori/cat2.jpg" class="card-img-top" alt="cat2">
+                        <div class="card-img-overlay">
+                          <p id="cat-card2" class="card-text">Discount!</p>
+                          <p id="cat-a2">Winter Cloth</p>
+                          <p id="cat-p2">New Collection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Project/Asset/categori/cat3.jpg" class="card-img-top" alt="cat3">
+                        <div class="card-img-overlay">
+                          <p id="cat-card1" class="card-text">Man's Cloth</p>
+                          <a id="cat-a1" href="#" class="btn btn-primary rounded-pill">Best New Deals</a>
+                          <p id="cat-p1">New Collection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest products -->
+    <section style="margin-left: 150px; margin-right: 150px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid" style="padding-bottom: 20px; border-bottom: 2px solid black;">
+                    <h3 style="margin-left: 100px; margin-top: 150px;">Latest Products</h3>
+                    <div style="margin-top: 150px;">
+                        <a href="#" style="margin-left: 20px; color: red;">All</a>
+                        <a href="#" style="margin-left: 20px;">New</a>
+                        <a href="#" style="margin-left: 20px;">Featured</a>
+                        <a href="#" style="margin-right: 50px; margin-left: 20px;">Offer</a>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="d-flex">
+                <div class="card" style="width: 350px; border: 0px; margin-right: 40px;">
+                    <img src="../Project/Asset/categori/product1.png" class="card-img-top" alt="product1">
+                    <span class="new">New</span>
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 350px; border: 0px; margin-right: 30px;">
+                    <img src="../Project/Asset/categori/product2.png" class="card-img-top" alt="product2">
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 350px; border: 0px;">
+                    <img src="../Project/Asset/categori/product3.png" class="card-img-top" alt="product3">
+                    <span class="new">New</span>
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="d-flex">
+                <div class="card" style="width: 350px; border: 0px; margin-right: 40px;">
+                    <img src="../Project/Asset/categori/product4.png" class="card-img-top" alt="product4">
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 350px; border: 0px; margin-right: 40px;">
+                    <img src="../Project/Asset/categori/product5.png" class="card-img-top" alt="product5">
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 350px; border: 0px;">
+                    <img src="../Project/Asset/categori/product6.png" class="card-img-top" alt="product6">
+                    <span class="new">New</span>
+                    <div class="card-body">
+                        <div style="margin-left: 60px;">
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                            <i class="fa-regular fa-star" style="color: #c9cdd4;"></i>
+                        </div>
+                        <p class="card-text" style="margin-left: 30px;">Green dress with details.</p>
+                        <div class="d-flex">
+                            <p style="margin-left: 50px; margin-right: 20px;">$40.00</p>
+                            <p style="color:#ff1c51;"><strike>$60.00</strike></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Banner 2 -->
+    <section>
+        <div class="container d-flex" style="margin-top: 150px; background-image: url(../Project/Asset/categori/card.png); background-repeat: no-repeat;">
+            <div style="margin-top: -116px; margin-left: 200px;">
+                <img src="../Project/Asset/categori/card-man.png" alt="card-man">
+            </div>
+            <div style="position: absolute; font-size: 100px; font-weight: bold; color: rgba(0,0,0,0.1); transform: rotate(-90deg); margin-top: 350px; margin-left: 30px;">MANZ</div>
+            <div>
+                <h2 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; margin-top: 165px; margin-left: 80px; font-size:50px;">Find the best Product <br>from Our Shop</h2>
+                <p style="margin-left: 80px; font-size: larger;">Designers who are interested creating state of the.</p>
+                <button style="background: black; color: white; border-radius: 20px; margin-top: 55px; margin-left: 80px; margin-right: 250px; padding: 10px 30px 10px 30px;">Shop Now</button>
+                <img src="../Project/Asset/categori/card-shape.png" alt="card-shape">
+            </div>
+        </div>
+    </section>
+
+    <!-- best collection of this month -->
+    <section style="margin-top: 100px;">
+        <div class="container d-flex">
+            <div class="col-md-4">
+                <h2 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; margin-top: 110px; font-size:50px;">Best Collection<br>of This Month</h2>
+                <p style="font-size: larger;">Designers who are interested crea.</p>
+                <button style="background: blue; color: white; border-radius: 20px; margin-top: 55px; padding: 10px 30px 10px 30px;">Shop Now</button>
+                <div style="margin-top: 150px;">
+                    <img src="../Project/Asset/collection/collection1.png" alt="col1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="margin-left: 100px;">
+                    <img src="../Project/Asset/collection/collection2.png" alt="col2">
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top: 235px;">
+                <div class="d-flex" style="margin-left: 80px;">
+                    <pre style="margin-top: 62px; font-weight: bold; margin-right: 20px;">Menz Winter<br>     Jacket</pre>
+                    <img src="../Project/Asset/collection/collection3.png" alt="col3">
+                </div>
+                <br>
+                <div class="d-flex" style="margin-left: 10px;">
+                    <pre style="margin-top: 62px; font-weight: bold; margin-right: 20px; margin-left: 30px; background: #007bff; border-radius: 10px; padding: 10px 20px 10px 20px;">Menz Winter<br>     Jacket</pre>
+                    <img src="../Project/Asset/collection/collection4.png" alt="col3">
+                </div>
+                <br>
+                <div class="d-flex" style="margin-left: 80px;">
+                    <pre style="margin-top: 62px; font-weight: bold; margin-right: 20px;">Menz Winter<br>     Jacket</pre>
+                    <img src="../Project/Asset/collection/collection5.png" alt="col3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get our latest offers news -->
+    <section style="margin-top: 100px;">
+        <div class="container d-flex" style="background-image: url(../Project/Asset/collection/latest-offer.png);">
+            <div style="margin-top: 50px; margin-left: 220px;">
+                <h2 style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;">Get Our<br>Latest Offers News</h2>
+                <p>Subscribe news latter</p>
+            </div>
+            <div class="d-flex" style="margin-top: 100px; margin-left: 100px;">
+                <form>
+                    <input type="email" placeholder="your email here" style="border-radius: 20px; padding: 10px 20px 10px 20px; border: 0px;">
+                    <button style="background: blue; color: white; border-radius: 20px; padding: 10px 20px 10px 20px; margin-left: -40px; border: 0px;">Shop Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- text 3 -->
+    <section style="margin-top: 100px;">
+        <div class="container d-flex">
+            <div class="col-md-4" style="margin-left: 94px;">
+                <i class="fa-solid fa-table-columns fa-2xl"></i>
+                <h5 style="margin-top: 20px;">Free Shipping method</h5>
+                <p>aorem ixpacdolor sit<br>ameasecur adipisicing elitsf<br>edasd.</p>
+            </div>
+            <div class="col-md-4" style="margin-left: -10px;">
+                <i class="fa-solid fa-unlock-keyhole fa-2xl"></i>
+                <h5 style="margin-top: 20px;">Secure Payment System</h5>
+                <p>aorem ixpacdolor sit<br>ameasecur adipisicing elitsf<br>edasd.</p>
+            </div>
+            <div class="col-md-4" style="margin-left: -10px;">
+                <i class="fa-solid fa-rotate fa-2xl"></i>
+                <h5 style="margin-top: 20px;">Secure Payment System</h5>
+                <p>aorem ixpacdolor sit<br>ameasecur adipisicing elitsf<br>edasd.</p>
+            </div>
+        </div>
+    </section> 
+
+    <!-- 5 images -->
+    <section style="margin-top: 100px;">
+        <div class="container d-flex">
+            <img src="../Project/Asset/gallery/gallery1.jpg" alt="gal1" style="width: 230px;">
+            <img src="../Project/Asset/gallery/gallery2.jpg" alt="gal2" style="width: 230px;">
+            <img src="../Project/Asset/gallery/gallery3.jpg" alt="gal3" style="width: 230px;">
+            <img src="../Project/Asset/gallery/gallery4.jpg" alt="gal4" style="width: 230px;">
+            <img src="../Project/Asset/gallery/gallery5.jpg" alt="gal5" style="width: 230px;">
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer style="margin-top: 100px;">
+        <div class="container d-flex">
+            <div class="col-md-3">
+                <img src="../Project/Asset/logo/Logo.png" alt="logo" style="width: 180px;">
+                <p style="margin-top: 10px;">63, 1st floor, 16th Main, 8th Cross<br>BTM 1st Stage, BTM Layout,<br>Bengaluru, Karnataka 560029</p>
+            </div>
+            <div class="col-md-3" style="margin-top: 5px;">
+                <h6>Quick Links</h6>
+                <p style="margin-top: 30px;"><a href="#">About</a></p>
+                <p><a href="#">Offers & Discounts</a></p>
+                <p><a href="#">Get Column</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+            <div class="col-md-3" style="margin-top: 5px;">
+                <h6>New Products</h6>
+                <p style="margin-top: 30px;"><a href="#">Woman Cloth</a></p>
+                <p><a href="#">Fashion Accessories</a></p>
+                <p><a href="#">Man Accessories</a></p>
+                <p><a href="#">Rubber made Toys</a></p>
+            </div>
+            <div class="col-md-3" style="margin-top: 5px;">
+                <h6>Support</h6>
+                <p style="margin-top: 30px;"><a href="#">Frequently Asked Questions</a></p>
+                <p><a href="#">Terms & Conditions</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Report a Payment issue</a></p>
+            </div>
+        </div>
+
+        <div class="container d-flex" style="margin-top: 50px;">
+            <p style="margin-right: 300px;">Copyright &copy; 2023 All rights reserved | This template is made with <i class="fa-solid fa-heart" style="color: #195fd7;"></i> by <span style="color:#195fd7;"> Mr. Poorna Teja</span></p>
+            <i class="fa-brands fa-twitter" style="margin-right: 30px;"></i>
+            <i class="fa-brands fa-facebook-f" style="margin-right: 30px;"></i>
+            <i class="fa-brands fa-behance" style="margin-right: 30px;"></i>
+            <i class="fa-solid fa-globe" style="margin-right: 30px;"></i>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

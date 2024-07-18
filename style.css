@@ -1,0 +1,210 @@
+/* top navbar */
+.top-nav {
+    justify-content: space-between;
+    background:black;
+    color: white;
+}
+.left img {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.left i {
+    margin-right: 30px;
+}
+.right a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* main navbar */
+#SecondNav {
+    margin-top: 15px;
+    margin-right: 40px;
+    list-style: none;
+}
+#Search {
+    margin-left: -45px;
+    padding: 15px;
+    color: black;
+}
+#SearchBar {
+    margin-left: -50px;
+    width: 220px;
+}
+#SecondNav,#WishList,#Cart {
+    color:black;
+}
+#WishList,#Cart {
+    margin-left: 30px;
+    padding: 5px;
+    /* padding-right: 15px; */
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+}
+.badge {
+    background-color:blue;
+    border-radius: 50%;
+    padding: 5px 5px;
+    font-size: 10px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 20px;        
+}
+.badges {
+    background-color:red;
+    /* border: 1px solid red; */
+    color:white;
+    height:15px;
+    width:20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    /* padding: 10px 20px; */
+    font-size: 10px;
+    margin-left: -9px;
+    text-align: center;
+    justify-content: center;
+} 
+#SignIn {
+    /* margin-top: 10px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px; */
+    display: inline-block;
+    padding: 5px 10px; /* Adjust padding as necessary */
+    background-color: #007bff;
+    color: white;
+    text-align: center; /* Horizontally center the text */
+    border: none;
+    border-radius: 5px; /* Optional: Rounded corners */
+    line-height: 1;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+
+/* banner */
+.banner {
+    background-image: url(../Project/Asset/hero/h1_hero.jpg) !important;
+}
+.p1 {
+    color:#007bff;
+    font-family: cursive; 
+    font-style: italic; 
+    font-size: 40px; 
+    margin-top: 100px; 
+    margin-left: 150px;
+}
+.p2 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    font-size: 100px; 
+    margin-left: 150px;
+}
+.p3 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    font-size: 20px; 
+    margin-left: 150px;
+}
+.btn {
+    margin-left: 150px;
+}
+
+/* category items */
+.cat-item {
+    display: flex;
+}
+.card {
+    width: 360px;
+    border: 0px;
+}
+#shop-by {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#cat-card1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 27px;
+    margin-left: 184px;
+    margin-top: 40px;
+}
+#cat-a1 {
+    background: yellow;
+    background-color: yellow;
+    color: black;
+    margin-left: 190px;
+    border: 0px;
+    font-style: 15px;
+}
+#cat-p1 {
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 0px -5px 0px white;
+    font-weight: bolder;
+    margin-top: -15px;
+    margin-left: 200px;
+    color: #007bff;
+}
+#cat-card2 {
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 0px -5px 0px white;
+    color:#007bff;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#cat-a2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+#cat-p2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -15px;
+    margin-left: 200px;
+}
+
+
+/* mixed */
+ul li {
+    padding:10px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.new {
+    position: absolute;
+    background-color:#ff1c51;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 20px;
+    width:45px;
+    color: white ;
+    padding-bottom: 5px;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+}
