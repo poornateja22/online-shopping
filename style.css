@@ -92,7 +92,7 @@
 
 /* banner */
 .banner {
-    background-image: url(../Project/Asset/hero/h1_hero.jpg) !important;
+    background-image: url(h1_hero.jpg) !important;
 }
 .p1 {
     color:#007bff;
