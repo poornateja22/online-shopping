@@ -7,7 +7,6 @@ This project is a static e-commerce web page built using HTML, CSS, and Bootstra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [License](#license)
 
 ## Features
 
